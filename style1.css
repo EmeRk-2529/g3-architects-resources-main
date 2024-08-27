@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Work Sans", sans-serif;
+}
+.header_design{
+width: 100%;
+/* height:140vh; */
+/* margin-bottom: 100px; */
+margin-bottom: 50px;
+    
+    background-color:  rgb(255, 144, 14 ,0.10);
+}
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 160px;
+    padding: 20px 0px;
+}
+.G3_Arc{
+    font-size: 30px;
+}
+
+.container_list ul {
+    display:flex;
+    
+    
+}
+.container_list ul li {
+    list-style: none;
+    justify-content: space-between;
+    padding:20px;
+    
+    
+}
+.container_list ul li a{
+    text-decoration: none;
+}
+.banner_contain{
+    /* max-width: 800px; */
+    /* margin:0px auto; */
+   text-align: center;
+   padding:50px;
+}
+.banner_title{
+    font-size: 50px;
+}
+.banner_description{
+    color:#757575;
+    line-height: 24px;
+    margin: 20px 0px;
+}
+.btn_explore{
+    background: #FF900E;
+    background-color: ;
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    margin:20 0px
+}
+.banner_img{
+    width: 80%;
+
+}
+.second_design{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    display:flex;
+    /* max-width: 1150px; */
+    max-width: 1040px;
+    margin:auto;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+
+}
+.team_img{
+    width:250px;
+    padding:7px;
+}
+.second_menu{
+    margin: auto;
+}
+.middle_word{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+.Quick_word{
+    font-size: 35px;
+    color: #757575;
+    font-weight: 500;
+}
+.second_description ,.second_description1{
+    font-size: 12px;
+    color: #757575;
+    line-height: 20px;
+
+}
+.Feature_word{
+    font-size: 35px;
+    color: #FF900E;
+}
+.third_design{
+   max-width: 1450px;
+    margin:auto; 
+    
+     
+}
+.third_container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.img_lady{
+    width: 550px;
+}
+.title_feature .title_feature1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin: 25px 0;
+}
+.design_box{
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    padding: 25px;
+    margin: 20px 0;
+}
+hr{
+    width: 4px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FF900E;
+    gap: 58px;
+    margin-top: 20px;
+    opacity: 0px;
+    border: none;
+
+}
+.for_hover{
+    display: flex;
+    gap: 10px;
+ }
+.sticker{
+    background-color: #FF900E;
+    width: 180px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+.year_ten{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.sticker p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+.forth_design{
+    max-width: 1100px;
+     margin:auto; 
+  margin-bottom: 100px;
+}
+.box_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.box_icon{
+    border: 1px solid #fdb34e;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 8px;
+    width: 140px;
+    
+}
+.footer_design{
+    margin-bottom: 100px;
+}
+.footer_title{
+    text-align: center;
+}
+.social_logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 0px 100px;
+    align-items: center;
+    text-align: center;
+    /* opacity: .30; */
+    filter: grayscale(100%);
+    cursor: pointer;
+
+}
+.social_logo:hover{
+    filter: grayscale(0%);
+}
+.social_img{
+    width: 132px;
+}
+.footer_description{
+    padding:30px;
+    background-color:  rgb(255, 144, 14 ,0.10);
+    margin: 100px 200px 200px;
+    text-align: center;
+}
+
+
+/* Media Device */
+@media screen and (max-width:576px) {
+    .main_nav{
+       flex-direction: column;
+       text-align: center;
+    }
+    .G3_Arc{
+        font-size: 22.5px;
+    }
+    .banner_title{
+        font-size: 25px;
+    }
+    .banner_contain{
+        padding: 20px;
+    }
+    .banner_description{
+        font-size: 12px;
+        line-height:20px;
+    }
+    .second_design{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .team_img_container {
+        text-align: center;
+    }
+    .team_img{
+        gap: 20p;
+        width: 140px;
+        padding: 3px;
+        /* margin: 21px; */
+        gap: 2px;
+
+}
+.second_menu{
+   
+    text-align: center;
+}
+.Quick_word{
+    font-size: 25px;
+}
+.middle_word{
+    font-size: 25px;
+}
+.Feature_word{
+    font-size: 25px;
+}
+.btn_explore{
+    padding: 10px;
+    font-size: 14px;
+    width: 115px;
+    height: 40px;
+    
+}
+.title_feature{
+    font-size: 30px;
+    text-align: center;
+}
+.second_description{
+    text-align: center;
+}
+.box_icon{
+     padding: 5px;
+    width: 80px;
+    
+}
+ .box_icon img {
+    width: 30px;
+}
+
+ .box_icon h1 {
+    font-size: 15px;
+}
+
+ .box_icon p {
+    font-size: 10px;
+}
+.third_container{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.forth_design{
+    margin-bottom: 50px;
+}
+.social_img{
+    width: 90px;
+}
+
+.social_logo{
+    display: grid;
+    
+    
+    gap: 20px;
+    
+    grid-template-columns: repeat(2,1fr);
+}
+.footer_design{
+    margin-bottom: 50px;
+}
+p {
+    font-size: 13px;
+}
+.footer_description{
+    padding: 20px;
+    margin: 20px;
+
+}
+.title_feature1{
+    text-align: center;
+}
+.second_description1{
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+.img_lady{
+    
+        width: 350px;
+        margin: 0px 20px;
+        padding: 0px 20px;
+}
+.sticker{
+    
+    width: 150px;
+    padding: 30px;
+    left: 10px;
+
+}
+.year_ten{
+    font-size: 30px;
+}
+.sticker p{
+    font-size: 15px;
+}
+
+}
+
+
+/* Tablet Device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .main_nav{
+       flex-direction: column;
+       text-align: center;
+    }
+    .G3_Arc{
+        font-size: 22.5px;
+    }
+    .banner_title{
+        font-size: 25px;
+    }
+    .banner_contain{
+        padding: 20px;
+    }
+    .banner_description{
+        font-size: 12px;
+        line-height:20px;
+    }
+    .banner_img{
+        width: 70%;
+    }
+
+
+    .second_design{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .team_img_container {
+        text-align: center;
+    }
+    .team_img{
+        /* gap: 20p; */
+        /* width: 10px; */
+        /* margin: 21px; */
+        gap: 2px;
+}
+
+.second_menu{
+   
+    text-align: center;
+}
+.Quick_word{
+    font-size: 25px;
+}
+.middle_word{
+    font-size: 25px;
+}
+.Feature_word{
+    font-size: 25px;
+}
+.btn_explore{
+    padding: 10px;
+    font-size: 14px;
+    width: 115px;
+    height: 40px;
+    
+}
+.title_feature{
+    font-size: 30px;
+    text-align: center;
+}
+.second_description{
+    text-align: center;
+}
+.box_icon{
+     padding: 5px;
+    width: 80px;
+    
+}
+ .box_icon img {
+    width: 30px;
+}
+
+ .box_icon h1 {
+    font-size: 15px;
+}
+
+ .box_icon p {
+    font-size: 10px;
+}
+.third_container{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.forth_design{
+    margin-bottom: 50px;
+}
+.social_img{
+    width: 90px;
+}
+
+.social_logo{
+    display: grid;
+    
+    
+    gap: 20px;
+    
+    grid-template-columns: repeat(2,1fr);
+}
+.footer_design{
+    margin-bottom: 50px;
+}
+p {
+    font-size: 13px;
+}
+.footer_description{
+    padding: 20px;
+    margin: 20px;
+
+}
+.title_feature1{
+    text-align: center;
+}
+.second_description1{
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+.img_lady{
+    
+        width: 350px;
+        margin: 0px 20px;
+        padding: 0px 20px;
+}
+.sticker{
+    
+    width: 150px;
+    padding: 30px;
+    left: 10px;
+
+}
+.year_ten{
+    font-size: 30px;
+}
+.sticker p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+}
